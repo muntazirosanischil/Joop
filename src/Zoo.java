@@ -15,6 +15,11 @@ public class Zoo {
         Bee stinger = new Bee("Stinger");
         stinger.eat("ice cream");
         stinger.eat("pollen");
+
+        Animal[] hungryAnimals = {tigger,pooh,rarity,gemma,stinger};
+
+        Zookeeper zoebot = new Zookeeper("Zoebot");
+        zoebot.feedAnimals(hungryAnimals, "Lasagna");
     }
 
 //    public void sleep(String name) {
